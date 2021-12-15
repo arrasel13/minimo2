@@ -1,0 +1,294 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css end*/
+
+/*Header start*/
+header{
+	padding: 20px 0;
+	border-bottom: 1px solid #efefef;
+	position: sticky;
+	top: 0;
+	background-color: #ffffff;
+}
+
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+
+.logo{
+	margin-top: 10px;
+	width: 15%;
+    /*border: 1px solid;*/
+    float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 60%;
+	/*border: 1px solid;*/
+	float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 20px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*Header end*/
+
+/*Banner start*/
+.banner{
+	/*padding: 20px 0;*/
+}
+.banner_content{}
+.banner_content img{
+	width: 100%;
+}
+/*Banner end*/
+
+/*About Us start*/
+.about{
+	padding: 80px 0;
+}
+
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+
+.about_content{}
+
+.cmn_tag{
+	margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.cmn_title{
+	margin: 20px 0 25px;
+	font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.cmn_para{
+	line-height: 25px;
+}
+.mb_40{
+	margin: 0 0 40px;
+}
+/*About Us end*/
+
+/*Blog start*/
+.blog{
+	padding: 80px 0 20px;
+}
+
+.blog_content{
+	overflow: hidden;
+}
+
+.single{
+	margin: 0 0 60px;
+	width: 47%;
+    /*border: 1px solid;*/
+    float: left;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+
+.b_image{
+	margin: 0 0 25px;
+}
+.b_image img{
+	width: 100%;
+}
+/*Blog end*/
+
+/*NewsLetter start*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+
+.news_content{
+	text-align: center;
+}
+.su_h1{
+	margin: 0 0 70px;
+	color: #333333;
+}
+
+.su_form{
+	margin: 0 auto;
+	width: 400px;
+	/*border: 1px solid;*/
+	position: relative;
+
+}
+.su_form input{
+	padding: 0 45px 0 5px;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-width: 400;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #626262;
+	background-color: transparent;
+}
+.su_form input:focus, .su_form button:focus {
+	outline: 0;
+}
+.su_form button{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+.su_form button img{}
+/*NewsLetter end*/
+
+/*Blog2 start*/
+.loadmore{
+	margin: 150px 0;
+	text-align: center;
+}
+.loadmore button{
+	width: 165px;
+	height: 60px;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-width: 400;
+	color: #626262;
+	background-color: transparent;
+	border: 1px solid #626262;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.loadmore button:hover{
+	color: #ffffff;
+	background-color: #626262;
+}
+/*Blog2 end*/
+
+/*Back to top start*/
+.bttop{}
+
+.bttop_content{}
+
+.bttop_btn{
+    padding: 10px;
+	border: 1px solid #626262;
+    text-transform: uppercase;
+    background-color: transparent;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.bttop_btn:hover {
+	color: white;
+	background-color: red;
+	border: 1px solid red;
+}
+.bttop_btn:focus {
+	outline: 0;
+}
+/*Back to top end*/
+
+/*Footer start*/
+footer{
+	padding: 20px 0;
+	background-color: #f0f0f0;
+}
+
+.terms{
+	width: 25%;
+	/*border: 1px solid;*/
+	float: left;
+}
+.terms ul{
+	overflow: hidden;
+    padding: 0;
+}
+.terms ul li{
+	list-style: none;
+    float: left;
+}
+.terms ul li a{
+    margin: 0 20px;
+    display: inline-block;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+.terms ul li:first-child a{
+	margin-left: 0;
+}
+
+.follow{
+	width: 20%;
+	/*border: 1px solid;*/
+	float: right;
+}
+.follow ul{
+	float: right;
+}
+.follow ul li{
+	list-style: none;
+    float: left;
+}
+.follow ul li span{
+    font-size: 16px;
+    color: #000000;
+}
+.follow ul li a{
+	margin: 0 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.follow ul li:last-child a{
+	margin-right: 0;
+}
+/*Footer end*/
